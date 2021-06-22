@@ -1,0 +1,61 @@
+.GalleriContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Galleri{
+    width: 35vw;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+    right: 280px;
+    bottom: 170px;
+}
+
+.GalleriH1{
+    color: #1B2A49;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.thumbnail{
+    width: 100%;
+    cursor: pointer;
+}
+
+#large-image{
+    width: 100%;
+}
+
+.GalleriTekst{
+    margin: 0 auto;
+    position: relative;
+    padding-left: 1150px;
+    bottom: 800px;
+    right: 400px;
+}
+
+.GalleriTekstH1{
+    color: #1B2A49;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px; 
+}
+
+.GalleriTekstP, .GalleriTekstP2{
+    color: #1B2A49;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 15px;
+}
+

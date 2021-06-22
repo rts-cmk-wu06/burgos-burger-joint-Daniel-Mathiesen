@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/HeaderStyle.CSS">
+    <link rel="stylesheet" href="CSS/SommerTilbudStyle.CSS">
+    <link rel="stylesheet" href="CSS/GalleriStyle.CSS">
+    <link rel="stylesheet" href="CSS/AnbefaledeYummys.CSS">
+    <link rel="stylesheet" href="CSS/FooterStyle.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/KontaktStyle.CSS">
+</head>
+<header>
+    <img src="Assets/Images/banner.jpg" alt="BurgosBanner" class="HeaderBanner">
+    <div class="YellowBox">
+        <img src="Assets/Images/burger_ikon.png" alt="BurgerIkon" class="HeaderBurgerIkon">
+        <p class="HeaderBurgerIkonP">Burgos</p>
+    </div>
+    <div class="gradiantBox">
+        <h1 class="HeaderH1"> Vælg Din Favorit Yummy</h1>
+        <button class="HeaderButton">
+            <a href="#" class="HeaderButtonA"><p>Start</p></a>
+        </button>
+    </div>
+    <nav>
+        <ul class="HeaderUl">
+            <li class="HeaderLi"><a href="#">Home</a></li>
+            <li class="HeaderLi"><a href="#">Galleri</a></li>
+            <li class="HeaderLi"><a href="#">Anbefalede</a></li>
+            <li class="HeaderLi"><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <!-----Tilbud----->
+        <section class="TilbudContainer">
+            <img src="Assets/Images/reklame01.jpg" alt="SommerReklame" class="SommerReklame">
+            <h1 class="TilbudH1">-20%</h1>
+            <h2 class="TilbudH2">Sommer-<br>tilbud</h2>
+            <p class="TilbudP">Quisque nec libero ut sapien dictum commodo.Nam ac felis <br> id libero rutrum pharetra
+                eu non lacus</p>
+        </section>
+        <!-----Galleri----->
+        <section class="GalleriContainer">
+            <article class="Galleri">
+                <h1 class="GalleriH1">Galleri</h1>
+                <figure>
+                    <!-- Store billede-->
+                    <img id="large-image" src="Assets/Images/galleri05.jpg" alt="1">
+                </figure>
+                <figure class="grid-container">
+                    <!-- Små billeder-->
+                    <img class="thumbnail" src="Assets/Images/galleri05.jpg" alt="1">
+                    <img class="thumbnail" src="Assets/Images/galleri04.jpg" alt="2">
+                    <img class="thumbnail" src="Assets/Images/galleri06.jpg" alt="3">
+                </figure>
+
+            </article>
+            <article class="GalleriTekst">
+                <h1 class="GalleriTekstH1">Vores YUMMY opskrift</h1>
+                <p class="GalleriTekstP">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="GalleriTekstP2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
+            </article>
+        </section>
+        <!--Favorites-->
+        <section class="AnbefaledeYummys">
+            <h1 class="AnbefaledeH1">Anbefalede Yummies</h1>
+            <article class="YummyBilleder">
+                <figure class="FavGrid">
+                <img class="Favthumbnail" src="Assets/Images/favorit01.jpg" alt="Fav1">
+                <img class="Favthumbnail" src="Assets/Images/favorit02.jpg" alt="Fav2">
+                <img class="Favthumbnail" src="Assets/Images/favorit03.jpg" alt="Fav3">
+                <img class="Favthumbnail" src="Assets/Images/favorit04.jpg" alt="Fav4">
+                </figure>
+                    <button class="AnbefaledeKnap1"><img class="FavBurgerIkon" src="Assets/Images/burger_ikon.png" alt="BurgerIkon">Favorit</button>
+                    <button class="AnbefaledeKnap2"><img class="FavBurgerIkon" src="Assets/Images/burger_ikon.png" alt="BurgerIkon">Favorit</button>    
+                    <button class="AnbefaledeKnap3"><img class="FavBurgerIkon" src="Assets/Images/burger_ikon.png" alt="BurgerIkon">Favorit</button>
+                    <button class="AnbefaledeKnap4"><img class="FavBurgerIkon" src="Assets/Images/burger_ikon.png" alt="BurgerIkon">Favorit</button>
+                    <h1 class="FavBurger1">Grilled Burger</h1>
+                    <h1 class="FavBurger2">The Firehouse</h1>
+                    <h1 class="FavBurger3">Grilled Burger</h1>
+                    <h1 class="FavBurger4">Super Vegan</h1>
+            </article>
+        </section>
+       <!--kontakt-->
+        <section class="KontaktFormular">
+            <h1 class="kontaktH1">Kontakt</h1>
+             <!--Errors work in progress-->
+            <input type="text" class="Navn" name="fornavn" placeholder="Navn">
+            <input type="text" class="Email" name="email" placeholder="Email">
+            <textarea class="Område" name="område" placeholder="Skriv din besked her" style="height:200px"></textarea>
+            <button class="KontaktSend">Send</button>
+        </section>    
+    </main>
+<footer>
+<h1 class="FooterH1">Følg os på<br>instagram</h1>
+</footer>
+<script src="JavaScript/Galleri.JS"></script>
+</body>
+
+</html>

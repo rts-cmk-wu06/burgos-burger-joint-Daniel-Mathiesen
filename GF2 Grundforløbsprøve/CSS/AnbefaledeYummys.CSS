@@ -1,0 +1,70 @@
+.AnbefaledeYummys{
+    display: flex;
+    flex-direction: column;
+    background: rgba(243,115,53);
+    background: linear-gradient(360deg, rgba(243,115,53,0.8) 0%, rgba(250,174,50,0.8) 75%, rgba(251,183,49,0.8) 100%);
+    position: relative;
+    bottom: 700px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.FavGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+    max-width: 50%;
+    position: relative;
+    left: 300px;
+}
+
+.Favthumbnail{
+    width: 100%;
+    cursor: pointer;
+}
+
+.AnbefaledeH1{
+    color: #1B2A49;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    padding-left: 700px;
+    position: relative;
+    right: 350px;
+    bottom: 15px;
+}
+
+.AnbefaledeKnap1, .AnbefaledeKnap2, .AnbefaledeKnap3, .AnbefaledeKnap4{
+    background-color: #FBB731;
+    border: #FBB731;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #1B2A49;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 25px;
+    margin-right: 70px;
+    position: relative;
+    left: 365px;
+    top: 40px;
+}
+
+.FavBurgerIkon{
+    width: 15px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+.FavBurger1, .FavBurger2, .FavBurger3, .FavBurger4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #1B2A49;
+    position: relative;
+    right: 410px;
+    display: inline;
+    margin-right: 70px;
+}
+

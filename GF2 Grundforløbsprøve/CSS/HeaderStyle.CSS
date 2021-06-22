@@ -1,0 +1,115 @@
+/* Html opsætning */
+
+* {
+    box-sizing: border-box;
+}
+
+html { 
+    width:100%; height:100%; margin:0; padding:0; 
+}
+
+body { 
+    width:100%; height:100%; margin:0; padding:0; 
+}
+
+/* Header */
+
+.HeaderBanner{
+    width: 100%;
+    height: 100%;
+    margin-top: -130px;  
+}
+
+.gradiantBox{
+    position: absolute;
+    left: 295px;
+    top: 0px;
+    height: 883px;
+    width: 400px;
+    background: rgba(243,115,53);
+    background: linear-gradient(360deg, rgba(243,115,53,0.8) 0%, rgba(250,174,50,0.8) 75%, rgba(251,183,49,0.8) 100%);
+}
+
+.HeaderH1{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+.YellowBox{
+    background: #FBB731;
+    height: 55px;
+    width: 40px;
+    position: relative;
+    bottom: 810px;
+    left: 80px;
+}
+
+.HeaderBurgerIkon{
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+
+.HeaderBurgerIkonP{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    position: relative;
+    left: 85px;
+    bottom: 42px;
+}
+
+.HeaderButton{
+    background-color: #FBB731;
+    border: #FBB731;
+    border-radius: 20px;
+    color: #1B2A49;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+    top: 210px;
+    left: 130px;
+    padding-left:45px;
+    padding-right: 45px;
+}
+
+.HeaderButtonA{
+    color: #1B2A49;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(134, 125, 125);
+    text-decoration: none;
+}
+
+/* Nav */
+
+.HeaderUl, .HeaderLi{
+    list-style-type: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    margin: 13px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.HeaderUl{
+    position: relative;
+    left: 920px;
+    bottom: 842px;
+}

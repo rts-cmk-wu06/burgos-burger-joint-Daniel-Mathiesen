@@ -1,0 +1,11 @@
+footer{
+    background-color: #365368;
+    margin-top: 100px;
+    position: absolute;
+    top: 3700px;
+    width: 100%;
+}
+
+.FooterH1{
+    font-family: 'Nunino Sans', sans-serif;
+}
